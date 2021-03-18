@@ -1,6 +1,5 @@
 # 3일차
-#치환 1차 시도
-
+# 치환 1차 시도 (KS)
 a = int(input("a 입력: "))
 b = int(input("b 입력: "))
 print(f'a={a} b={b}')
