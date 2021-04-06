@@ -11,7 +11,7 @@ while 1:
         count = 0
         while n % i == 0:
             count += 1
-            n = n // i
+            n = n // i      # 정수 나누기, 결과를 정수로
         if count >= 2:
             res += f'{i} ^ {count} x '
         elif count == 1:
