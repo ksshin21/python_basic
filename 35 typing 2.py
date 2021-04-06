@@ -27,6 +27,6 @@ while i < length:  # text 리스트에 있는 항목의 개수만큼 처리
         eTime.append((endTime - startTime))  # 입력한 문자열과 text 리스트에 있는 문자열이 같으면 시간 측정
         res = ll[i]/(eTime[i]) * 60    # 초 단위의 시간을 분으로 환산
         print('%.0f타/분'%(res))      # 소수 첫째 자리에서 반올림
-        i += 1  # 오타가 아니면 인덱스를 증가, 오타이면 다시 typing하도록 인덱스를 증가시키지 않음
+        i += 1                       # 오타가 아니면 인덱스를 증가, 오타이면 다시 typing하도록 인덱스를 증가시키지 않음
 list_sum = sum(ll)/sum(eTime) * 60   # 전체글자수(누적글자수)를 각 문자열별로 걸린 시간의 합(누적초)으로 나눈 시간 * 60
 print('전체 %.0f타/분'%(list_sum))
